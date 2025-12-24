@@ -6,7 +6,7 @@ import math
 import time
 import random
 
-camera_mode = "OVERVIEW"  # OVERVIEW, FIRST_PERSON_PLAYER, FIRST_PERSON_ENEMY
+camera_mode = "OVERVIEW"  
 camera_pos = [0, -1550, 1000]
 camera_rotation = 0
 camera_zoom = 1.0
@@ -1070,4 +1070,5 @@ def main():
     glutMainLoop()  
 
 if __name__ == "__main__":
+
     main()
